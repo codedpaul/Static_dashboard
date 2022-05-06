@@ -1,0 +1,183 @@
+@media only screen and (max-width: 1024px) and (min-width: 300px) {
+}    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+/* header */
+
+.header {
+    background-color: none;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    border-bottom: 1px solid lightgrey;   
+}
+
+.drt {
+    font-weight: 5px;
+    color: lightgrey;
+}
+
+.r {
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.irys {
+    font-family: 'Bungee Hairline', cursive;
+    text-align: center;
+    letter-spacing: 10px;
+    float: left;
+    margin-left: 0px;
+    color: white;
+    background-color: black;
+    padding: 5px 25px 50px 20px;
+    margin-top: -10px;
+    margin-right: 35px;
+    width: 189.5px;
+    border-top-left-radius: 10px;
+}
+
+.search {
+    margin: 10px;
+    margin-left: 0px;
+    padding: 10px;
+    font-size: px;
+    border: 1px solid lightgrey;
+    float: left;
+    width: 400px;
+    background: #f1f1f1;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+}   
+
+.srch {
+    overflow: auto;
+    margin-top: 10px;
+    float: left;
+    width: 30px;
+    padding: 8px;
+    background: #f1f1f1;
+    color: rgb(129, 129, 129);
+    font-size: 17px;
+    border: 1px solid lightgrey;
+    border-right: none;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#btn {
+    display: inline;
+    float: right;
+    padding: 10px;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0.5px solid lightgrey;
+}
+
+.header button:hover {
+    background: #9cc9ee;
+}
+
+.ntf {
+    float: right;
+    display: inline;
+    float: right;
+    padding: 10px;
+    padding-right: 21px;
+    padding-top: 7px;
+    margin-right: 10px;
+    margin-top: 11px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0.5px solid lightgrey;
+}
+
+.msg {
+    float: right;
+    display: inline;
+    float: right;
+    padding: 5px;
+    padding-right: 6px;
+    padding-top: 7px;
+    margin-right: 10px;
+    margin-top: 11px;
+    width: 32px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0.5px solid lightgrey;
+}
+
+/* side nav */
+
+.row {
+    width: 190px;
+    border: 1px solid lightgrey;
+    padding: 20px 10px 10px 10px;
+    height: 700px;
+    background-color: black;
+    position: relative;
+    bottom: 58px;
+    border-left: none;
+}
+
+.side a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    width: 165px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    word-spacing: 20px;
+}
+
+.sidea {
+    color: grey;
+}
+
+.side a:hover {
+    background-color: grey;
+}    
+
+.logout {
+    margin-top: 120px;
+}
+
+/* navigation bar */
+.nav {
+    margin-left: 350px;
+    background-color: #f1f1f1;
+    width: 960px;
+}
+
+.nav a {
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+.navw {
+    color: lightgrey;
+    word-spacing: 15px;
+}
+
+#analytics {
+    color: black;
+    word-spacing: none;
+}
+
+.navh {
+    padding-left: 10px;
+}
