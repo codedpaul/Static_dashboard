@@ -1,16 +1,24 @@
-@media only screen and (max-width: 1024px) and (min-width: 300px) {
+@media only screen and (min-width: 300px) {
+    .header div  {
+        width: 100%;
+    }
 }    
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}   
+} 
+
+body {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
 
 /* header */
 
 .header {
-    background-color: none;
+    background-color: white;
     padding-bottom: 70px;
     padding-top: 10px;
     border-bottom: 1px solid lightgrey;   
@@ -124,10 +132,10 @@
     width: 190px;
     border: 1px solid lightgrey;
     padding: 20px 10px 10px 10px;
-    height: 700px;
+    height: 790px;
     background-color: black;
     position: relative;
-    bottom: 58px;
+    bottom: 40px;
     border-left: none;
 }
 
@@ -136,7 +144,7 @@
     text-decoration: none;
     text-align: left;
     color: white;
-    width: 165px;
+    width: 178px;
     padding: 5px 10px;
     margin-bottom: 10px;
     word-spacing: 20px;
@@ -144,14 +152,16 @@
 
 .sidea {
     color: grey;
+    font-size: 14px;
 }
 
 .side a:hover {
-    background-color: grey;
+    background-color: lightgrey;
+    border-radius: 5px;
 }    
 
 .logout {
-    margin-top: 120px;
+    margin-top: 235px;
 }
 
 /* navigation bar */
@@ -180,4 +190,59 @@
 
 .navh {
     padding-left: 10px;
+    padding-top: 20px;
+}
+
+/* Main */
+
+.main {
+    position: relative;
+    bottom: 760px;
+    margin-left: 360px;
+    width: 960px;
+    border-top: 1px solid lightgrey;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-bottom: -580px;
+}
+
+.grid-container {
+    height: 600px;
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    background-color:;
+    margin-bottom: -180px;
+}
+.grid-container > div {
+    background-color: red;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.main-header button {
+    position: relative;
+    bottom: 37px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.main-header button > a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.main h4 {
+    position: relative;
+    bottom: 17px;
+    font-weight: 520;
 }
